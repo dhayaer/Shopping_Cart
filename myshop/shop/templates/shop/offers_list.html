@@ -1,0 +1,9 @@
+{% for offer in offers %}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">{{ offer.product.name }}</h5>
+        <p class="card-text">{{ offer.description }}</p>
+        <p class="card-text">{{ offer.discount }}% off</p>
+    </div>
+</div>
+{% endfor %}

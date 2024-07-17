@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-price del {
+    font-size: 14px;
+    color: #999;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
